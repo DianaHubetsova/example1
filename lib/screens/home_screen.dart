@@ -16,7 +16,10 @@ class HomeScreen extends StatelessWidget {
               child: Column(
                 children: const <Widget>[
                   SizedBox(height: 30),
-                  ImageListView(),
+                  ImageListView(startIndex: 1, duration: 25),
+                  SizedBox(height: 10),
+                  ImageListView(startIndex: 2, duration: 25),
+
                 ],
               ),
             ),
